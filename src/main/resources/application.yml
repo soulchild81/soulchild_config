@@ -9,7 +9,7 @@ spring:
         git:
           default-label: main
           uri: https://github.com/soulchild81/soulchild_config.git
-          username: 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
+          username: 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
           password: ""
           search-paths: main
           try-master-branch: false
