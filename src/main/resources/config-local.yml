@@ -1,0 +1,6 @@
+spring:
+  profiles: local
+greeting: "LOCAL SERVER"
+
+api:
+  address: https://apiai.bugs.co.kr
