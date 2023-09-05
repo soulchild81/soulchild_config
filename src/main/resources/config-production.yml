@@ -1,5 +1,8 @@
 spring:
-  profiles: production
+  config:
+    activate:
+      on-profile:
+        - production
 greeting: "PRODUCTION SERVER"
 
 api:

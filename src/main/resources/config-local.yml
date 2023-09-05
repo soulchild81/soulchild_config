@@ -1,5 +1,8 @@
 spring:
-  profiles: local
+  config:
+    activate:
+      on-profile:
+        - local
 greeting: "LOCAL SERVER"
 
 api:

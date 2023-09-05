@@ -1,2 +1,23 @@
 server:
   port: 8888
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          default-label: main
+          uri: https://github.com/soulchild81/soulchild_config.git
+          username: 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
+          password: ""
+          search-paths: main
+          try-master-branch: false
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    shutdown:
+      enabled: true

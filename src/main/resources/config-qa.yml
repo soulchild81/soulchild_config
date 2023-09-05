@@ -1,5 +1,8 @@
 spring:
-  profiles: qa
+  config:
+    activate:
+      on-profile:
+        - qa
 greeting: "QA SERVER"
 
 api:
