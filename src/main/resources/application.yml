@@ -3,9 +3,17 @@ server:
 spring:
   cloud:
     config:
+      name: config
+      profile: dev
       server:
         git:
           default-label: main
           uri: https://github.com/soulchild81/soulchild_config.git
           username: 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
           password: ""
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
