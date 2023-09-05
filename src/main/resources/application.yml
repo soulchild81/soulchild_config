@@ -9,13 +9,5 @@ spring:
         git:
           default-label: main
           uri: https://github.com/soulchild81/soulchild_config.git
-          username: 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
+          username: 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
           password: ""
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "*"
-  endpoint:
-    shutdown:
-      enabled: true
