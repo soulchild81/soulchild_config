@@ -1,9 +1,3 @@
-spring:
-  config:
-    activate:
-      on-profile:
-        - real
 greeting: "PRODUCTION SERVER"
-
 api:
   address: https://apiai.bugs.co.kr
