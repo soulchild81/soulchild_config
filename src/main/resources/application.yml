@@ -2,7 +2,7 @@ server:
   port: 8888
 spring:
   application:
-    name: config
+    name: server
   cloud:
     config:
       server:
@@ -11,8 +11,6 @@ spring:
           uri: https://github.com/soulchild81/soulchild_config.git
           username: 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
           password: ""
-          search-paths: main
-          try-master-branch: false
 management:
   endpoints:
     web:

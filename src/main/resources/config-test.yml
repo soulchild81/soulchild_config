@@ -2,7 +2,7 @@ spring:
   config:
     activate:
       on-profile:
-        - qa
+        - test
 greeting: "QA SERVER"
 
 api:
